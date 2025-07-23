@@ -10,7 +10,7 @@
 set -e  # bail out on first error
 
 echo -e "\e[1;34m[OP3 SETUP] Cloning ROBOTIS OP3 repositories …\e[0m"
-vcs import --recursive src < src/op3_bringup/op3.repos
+vcs import --recursive src < src/op3-meta/op3.repos
 vcs pull src  # later updates
 
 echo -e "\e[1;34m[OP3 SETUP] Installing/upgrading vcstool, catkin_pkg, etc …\e[0m"
