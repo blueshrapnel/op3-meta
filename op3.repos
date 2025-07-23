@@ -1,0 +1,35 @@
+repositories:
+  ROBOTIS-OP3:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3.git
+    version: jazzy-devel
+  ROBOTIS-OP3-msgs:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-msgs.git
+    version: jazzy-devel
+  DynamixelSDK:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+    version: jazzy
+  ROBOTIS-OP3-Common:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-Common.git
+    version: jazzy-devel
+  ROBOTIS-Math:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git
+    version: jazzy-devel
+  ROBOTIS-Framework:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
+    version: jazzy-devel
+  ROBOTIS-Framework-msgs:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
+    version: jazzy-devel
+  ROBOTIS-OP3-Simulations:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-Simulations.git
+    version: jazzy-devel
+
+
