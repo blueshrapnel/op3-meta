@@ -14,8 +14,7 @@ vcs import --recursive src < src/op3-meta/op3.repos
 vcs pull src  # later updates
 
 echo -e "\e[1;34m[OP3 SETUP] Installing/upgrading vcstool, catkin_pkg, etc …\e[0m"
-python3 -m pip install --upgrade --user vcstool catkin_pkg
-python3 -m pip install empy lark-parser
+sudo apt install python3-vcstool python3-colcon-common-extensions python3-catkin-pkg
 
 echo -e "\e[1;34m[OP3 SETUP] Installing rosdep and refreshing its database …\e[0m"
 sudo apt update
