@@ -50,3 +50,17 @@ may need to be installed separately.
 python3 -m pip install empy lark-parser
 ```
 
+## Webots Simulator
+
+To launch the robot in webots:
+```bash
+sudo apt-get install ros-jazzy-webots-ros2
+ros2 launch op3_webots_ros2 robot_launch.py
+
+```
+
+## Web Sockets
+```
+sudo apt install ros-jazzy-rosbridge-server
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+```
