@@ -19,6 +19,7 @@ sudo apt install python3-vcstool python3-colcon-common-extensions python3-catkin
 echo -e "\e[1;34m[OP3 SETUP] Installing rosdep and refreshing its database …\e[0m"
 sudo apt update
 sudo apt install -y python3-rosdep
+sudo apt install ros-jazzy-usb-cam
 
 # First‑time rosdep initialisation (idempotent)
 if ! sudo test -f /etc/ros/rosdep/sources.list.d/20-default.list; then

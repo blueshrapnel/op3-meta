@@ -34,9 +34,5 @@ repositories:
     type: git
     url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-Tools.git
     version: jazzy-devel
-  ROBOTIS-OP3-ETC:
-    type: git
-    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-ETC.git
-    version: jazzy-devel
 
 
