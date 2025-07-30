@@ -1,4 +1,7 @@
 repositories:
+  op3-webots:
+    type: git
+    url: https://github.com/blueshrapnel/op3-webots.git
   ROBOTIS-OP3:
     type: git
     url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3.git
@@ -27,9 +30,13 @@ repositories:
     type: git
     url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
     version: jazzy-devel
-  ROBOTIS-OP3-Simulations:
+  ROBOTIS-OP3-Tools:
     type: git
-    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-Simulations.git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-Tools.git
+    version: jazzy-devel
+  ROBOTIS-OP3-ETC:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/ROBOTIS-OP3-ETC.git
     version: jazzy-devel
 
 
