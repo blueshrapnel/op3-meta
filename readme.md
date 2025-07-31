@@ -4,6 +4,13 @@ This repository will clone all the repos and setup the OP3 ROS2 workspace. Creat
 empty ros2 workspace with a `src` folder, clone the repo and then run the setup
 script.
 
+There is a problem with `usb_cam` in that the Robotis OP3 code has created a version
+0.8.2 with face detection (available from ROBOTIS_OP3_ETC git repo).  As we are not using face detection, we can revert to the
+main line ROS package 0.8.1 which is installed via `sudo apt install
+ros-jazzy-usb-cam`.  To do this, the required version in the `CMakeLists.txt` files
+must be changed from 0.8.2 to 0.8.1.  
+
+
 ## Preliminaries
 
 ### ROS2 and CycloneDDS
